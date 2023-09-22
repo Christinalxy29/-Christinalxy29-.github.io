@@ -1,0 +1,127 @@
+html {
+    background-color: lavender;
+  }
+header{
+    background-color: rgb(181, 137, 227);
+    display: flex; 
+    align-items: center;
+    padding: 20px;
+
+}
+header img{
+    flex-shrink: 0;
+    margin-left:auto;
+  }
+header h1{
+    font-family:'Gill Sans';
+    text-align: left;
+    margin-right: 10px;
+}
+h4{
+    font-family:cursive;
+    font-size:larger;
+}
+h3{
+    font-style: italic;
+    color: rgb(188, 42, 207);
+    text-decoration: dotted;
+}
+section{
+    float: left;
+    padding: 20px;
+    width: 80%;
+}
+section article{
+    width: 100%;
+}
+article{
+    float: left;
+    width: 40%;
+}
+aside{
+    width: 40%;
+    float: right;
+    padding: 1px;
+    background-image: url(my-images/sky.png);
+
+}
+.background1 {
+    background-image: url(my-images/purple-bird.webp);
+}
+.background2 {
+    background-image: url(my-images/potato-minion.gif);
+}
+.background3{
+    background-image: url(my-images/ballet.gif);
+}
+.background4{
+    background-image: url(my-images/train.gif);
+}
+.background5{
+    background-image: url(my-images/coded-data.gif);
+}
+.logo{
+    border-radius: 60%;
+}
+.dance{
+    width: 30%;
+    float: left;
+    margin: 1%;
+    box-sizing: border-box;
+    background-image:url(my-images/dance.jpeg);
+}
+.pipa{
+    width: 30%;
+    float: left;
+    margin: 1%;
+    box-sizing: border-box;
+    background-image:url(my-images/pipa-background.jpeg);
+}
+.movie{
+    width: 30%;
+    float: left;
+    margin: 1%;
+    box-sizing: border-box;
+    background-image:url(my-images/movie.webp);
+}
+.schedule{
+    background-image:url(my-images/forest.gif);
+    color: rgba(255, 255, 255, 0.739);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: pink;
+}
+.topnav a{
+    float: left;
+    display: black;
+    color:purple;
+    font-weight: bold;
+    text-align:center;
+    padding: 16px 16px;
+    text-decoration: solid;
+}
+.topnav a:hover{
+    background-color: lightyellow;
+    color:green
+}
+.topnav-right {
+    float: right;
+}
+.row::after {
+    content: "";
+    clear:both;
+    display: table;
+}
+footer{
+    clear:both;
+    background-color: silver;
+    padding: 10px;
+    text-align: center;
+}
+
